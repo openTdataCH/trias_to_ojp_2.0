@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trias="http://www.vdv.de/trias" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp">
+  <OJPRequest>
+    <siri:ServiceRequest>
+      <siri:RequestTimestamp xmlns="http://www.vdv.de/trias">2025-01-13T13:19:04.788Z</siri:RequestTimestamp>
+      <siri:RequestorRef xmlns="http://www.vdv.de/trias">API-Explorer</siri:RequestorRef>
+      <OJPTripInfoRequest>
+        <siri:RequestTimestamp>2025-01-13T13:19:04.788Z</siri:RequestTimestamp>
+        <siri:MessageIdentifier>mymessage-1</siri:MessageIdentifier>
+        <JourneyRef>odp:80045:Y:H:j17:3928</JourneyRef>
+        <OperatingDayRef/>
+        <Params>
+          <UseTimetabledDataOnly>true</UseTimetabledDataOnly>
+          <IncludeCalls>true</IncludeCalls>
+          <IncludePosition>true</IncludePosition>
+          <IncludeService>true</IncludeService>
+        </Params>
+      </OJPTripInfoRequest>
+    </siri:ServiceRequest>
+  </OJPRequest>
+</OJP>

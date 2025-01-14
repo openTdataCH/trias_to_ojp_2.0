@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trias="http://www.vdv.de/trias" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp">
+  <OJPRequest>
+    <siri:ServiceRequest>
+      <siri:RequestTimestamp xmlns="http://www.vdv.de/trias">2025-01-13T13:19:19.352Z</siri:RequestTimestamp>
+      <siri:RequestorRef xmlns="http://www.vdv.de/trias">API-Explorer</siri:RequestorRef>
+      <OJPTripRequest>
+        <siri:RequestTimestamp>2025-01-13T13:19:19.352Z</siri:RequestTimestamp>
+        <siri:MessageIdentifier>mymessage-1</siri:MessageIdentifier>
+        <Origin>
+          <PlaceRef>
+            <siri:StopPointRef>8500320</siri:StopPointRef>
+            <Name>
+              <Text>Will be ignored</Text>
+            </Name>
+          </PlaceRef>
+          <DepArrTime>2025-01-13T14:19:13</DepArrTime>
+        </Origin>
+        <Destination>
+          <PlaceRef>
+            <siri:StopPointRef>8500322</siri:StopPointRef>
+            <Name>
+              <Text>Will be ignored</Text>
+            </Name>
+          </PlaceRef>
+          <DepArrTime>2025-01-13T14:19:13</DepArrTime>
+        </Destination>
+        <Params>
+          <NumberOfResults>1</NumberOfResults>
+          <IncludeTrackSections>false</IncludeTrackSections>
+          <IncludeLegProjection>true</IncludeLegProjection>
+          <IncludeIntermediateStops>false</IncludeIntermediateStops>
+        </Params>
+      </OJPTripRequest>
+    </siri:ServiceRequest>
+  </OJPRequest>
+</OJP>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trias="http://www.vdv.de/trias" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp">
+  <OJPRequest>
+    <siri:ServiceRequest>
+      <siri:RequestTimestamp xmlns="http://www.vdv.de/trias">2025-01-13T13:16:46.084Z</siri:RequestTimestamp>
+      <siri:RequestorRef xmlns="http://www.vdv.de/trias">API-Explorer</siri:RequestorRef>
+      <OJPStopEventRequest>
+        <siri:RequestTimestamp>2025-01-13T13:16:46.084Z</siri:RequestTimestamp>
+        <siri:MessageIdentifier>mymessage-1</siri:MessageIdentifier>
+        <Location>
+          <PlaceRef>
+            <siri:StopPointRef>8507000</siri:StopPointRef>
+            <Name>
+              <Text>Will be ignored</Text>
+            </Name>
+          </PlaceRef>
+          <DepArrTime>2025-01-13T14:16:46</DepArrTime>
+        </Location>
+        <Params>
+          <NumberOfResults>1</NumberOfResults>
+          <StopEventType>departure</StopEventType>
+          <IncludePreviousCalls>true</IncludePreviousCalls>
+          <IncludeOnwardCalls>true</IncludeOnwardCalls>
+          <UseRealtimeData>full</UseRealtimeData>
+          <IncludeStopHierarchy>all</IncludeStopHierarchy>
+        </Params>
+      </OJPStopEventRequest>
+    </siri:ServiceRequest>
+  </OJPRequest>
+</OJP>

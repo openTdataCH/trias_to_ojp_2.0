@@ -1,0 +1,3 @@
+#Configuration information
+access_token="eyJvcmciOiI2NDA2NTFhNTIyZmEwNTAwMDEyOWJiZTEiLCJpZCI6IjlkMGQ5NzA1ZDNjMDRhNWU4YTVhZjJkMWY2OTgxYzkwIiwiaCI6Im11cm11cjEyOCJ9"
+ojp20url="https://api.opentransportdata.swiss/ojp20"

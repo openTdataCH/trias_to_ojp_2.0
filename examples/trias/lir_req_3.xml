@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias version="1.1" xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/trias ../trias-xsd-v1.1/Trias.xsd">
+    <ServiceRequest>
+        <siri:RequestTimestamp>2025-01-13T13:20:33.894Z</siri:RequestTimestamp>
+        <siri:RequestorRef>API-Explorer</siri:RequestorRef>
+        <RequestPayload>
+            <LocationInformationRequest>
+                <InitialInput>
+                    <GeoRestriction>
+                        <Circle>
+                            <Center>
+                                <Longitude>441.1</Longitude>
+                                <Latitude>08.2</Latitude>
+                            </Center>
+                            <Radius>100</Radius>
+                        </Circle>
+                    </GeoRestriction>
+                </InitialInput>
+                <Restrictions>
+                    <Type>stop</Type>
+                    <NumberOfResults>10</NumberOfResults>
+                    <IncludePtModes>false</IncludePtModes>
+                </Restrictions>
+            </LocationInformationRequest>
+        </RequestPayload>
+    </ServiceRequest>
+</Trias>
