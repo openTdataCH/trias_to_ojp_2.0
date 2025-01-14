@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trias="http://www.vdv.de/trias" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp">
-  <OJPRequest>
-    <siri:ServiceRequest>
-      <siri:RequestTimestamp xmlns="http://www.vdv.de/trias"/>
-      <siri:RequestorRef xmlns="http://www.vdv.de/trias">API-Explorer</siri:RequestorRef>
-    </siri:ServiceRequest>
-  </OJPRequest>
-</OJP>
