@@ -71,7 +71,9 @@ The core are two xslt:
 * One transforms trias requests into ojp 2.0 requests: 'trias_to_ojp2.0_request.xslt'
 * One transforms ojp 2.0 responses to trias responses: 'trias_to_ojp2.0_response.xlst'
 
-Currently a first draft of the first xslt is really done
+Currently, a first draft of the first xslt is really done
+
+We use mostly subtemplates for common elements and "functions".
 
 # Programs
 * server.py: the service
