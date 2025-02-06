@@ -31,7 +31,14 @@ all TODO
 * Params/IncludeRealtimeData
 
 ### Response
-all TODO
+* For 80% it works
+* Response done for OJP 2.0 with some Swiss quirks ProductCategory
+* NoBoarding and No Alighting is not in the response (not supported by OJP 2.0)
+* Handling of languages of Texts not done correctly (language removed)
+* Situations are removed if they are there.
+* Sections not supported (only one exists)
+* ParallelService not supported
+* TopographicPlaceRef not supported
 
 ## Trip Service
 ### Request
@@ -78,17 +85,18 @@ We use mostly subtemplates for common elements and "functions".
 # Programs
 * server.py: the service
 * test_client.py: a simple test client
-* test_transform.py: the test program for the transforms
+* test_transform_req.py: the test program for the  the requests TRIAS -> OJP 2.0
+* test_transform_resp.py: the test program for a Stop Event Response OJP 2.0 -> TRIAS
 
 All are currently in a PoC state.
 
 # TODO
 * Requests: Placeref better
-* Responses: Do a first draft
+* Responses: Do some of the other services
 
 # Adminstrative stuff
 ## License
-AGL 3.0
+AGPL 3.0
 
 ## Author
 Matthias Günter
